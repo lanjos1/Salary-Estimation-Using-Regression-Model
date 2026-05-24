@@ -28,7 +28,7 @@ The dataset covers 25 distinct roles across different seniority levels:
 
 ---
 
-## Methodology & Workflow
+## 🛠️ Methodology & Workflow
 
 1. **Data Preprocessing & EDA:**
    * Handling categorical variables (Job Titles and Locations) using encoding techniques.
@@ -43,7 +43,9 @@ The dataset covers 25 distinct roles across different seniority levels:
 
 ---
 
-## 👥 Authors
-- Ludmila Nascimento dos Anjos
-- João Victor Freire
-- João Vitor Mendes
+## 🚀 How to Run the Project
+
+### Prerequisites
+Make sure you have Python installed along with the required libraries:
+```bash
+pip install pandas numpy scikit-learn plotly jupyter
