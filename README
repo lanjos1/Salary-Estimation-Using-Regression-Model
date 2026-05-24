@@ -28,7 +28,7 @@ The dataset covers 25 distinct roles across different seniority levels:
 
 ---
 
-## 🛠️ Methodology & Workflow
+## Methodology & Workflow
 
 1. **Data Preprocessing & EDA:**
    * Handling categorical variables (Job Titles and Locations) using encoding techniques.
@@ -43,12 +43,12 @@ The dataset covers 25 distinct roles across different seniority levels:
 
 ---
 
-Execution Steps
-1. Clone this repository to your local machine: git clone [https://github.com/YOUR-USERNAME/Salary-Estimation-Using-Regression-Model.git](https://github.com/YOUR-USERNAME/Salary-Estimation-Using-Regression-Model.git)
-2. Navigate to the project directory and open the Jupyter Notebook: jupyter notebook Salary.ipynb
+## Execution Steps
+1. Clone this repository to your local machine: git clone ``` [https://github.com/YOUR-USERNAME/Salary-Estimation-Using-Regression-Model.git](https://github.com/YOUR-USERNAME/Salary-Estimation-Using-Regression-Model.git) ```
+2. Navigate to the project directory and open the Jupyter Notebook: ``` jupyter notebook Salary.ipynb ```
 3. Run all cells sequentially to execute the data pipeline, train the models, and render the evaluation performance graphs.
 
-👥 Authors
+## 👥 Authors
 - Ludmila Nascimento dos Anjos
 - João Victor Freire
 - João Vitor Mendes
