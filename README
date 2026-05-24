@@ -1,13 +1,54 @@
+# Salary Estimation Using Regression Models
 
-Informações sobre o dataset
+This repository contains a Machine Learning project focused on predicting professional salaries in the tech industry across major hubs in India. Using regression algorithms, the model analyzes variables such as job titles, locations, and experience to estimate compensation.
 
-Títulos de Vagas presentes neste Conjunto de Dados:
+---
 
-Cientista de Dados, Associado de Ciência de Dados, Consultor de Ciência de Dados, Ciência de Dados, Cientista de Dados Sênior, Cientista de Dados Júnior, Cientista de Dados Líder, Gerente de Ciência de Dados, Cientista de Dados - Trainee, Líder de Ciência de Dados, Analista de Dados, Engenheiro de Dados, Engenheiro de Machine Learning, Engenheiro de Software - Machine Learning, Engenheiro de Machine Learning / Cientista de Dados, Consultor de Machine Learning, Associado de Dados de Machine Learning, Associado de Dados de Machine Learning I, Associado de Machine Learning, Associado de Dados de Machine Learning II, Engenheiro Associado de Machine Learning, Analista de Dados de Machine Learning, Engenheiro Sênior de Machine Learning, Cientista de Machine Learning, Desenvolvedor de Machine Learning
+## 📌 Project Overview
 
------------------------------------------------------------------------------------------
+Predicting salary trends is critical for both recruiters and professionals navigating the job market. This project evaluates and compares different regression models—specifically **Decision Tree Regressor** and **Random Forest Regressor**—to identify which algorithm delivers the highest accuracy and lowest error rates when estimating tech salaries.
 
-Locais presentes neste Conjunto de Dados:
+---
 
-Bangalore, Pune, Hyderabad, Nova Délhi (New Delhi), Mumbai
+## 📊 Dataset Information
 
+The dataset includes structural market data, specifically focusing on data-driven and AI-related roles across India's primary technology hubs.
+
+### 💼 Job Titles Included:
+The dataset covers 25 distinct roles across different seniority levels:
+* **Data Science & Analytics:** Data Scientist, Data Science Associate, Data Science Consultant, Senior Data Scientist, Junior Data Scientist, Lead Data Scientist, Data Science Manager, Data Science - Trainee, Data Science Lead, Data Analyst.
+* **Machine Learning & AI:** Machine Learning Engineer, Software Engineer - Machine Learning, Machine Learning Engineer / Data Scientist, Machine Learning Consultant, Machine Learning Data Associate (I & II), Machine Learning Associate, Associate Machine Learning Engineer, Machine Learning Data Analyst, Senior Machine Learning Engineer, Machine Learning Scientist, Machine Learning Developer.
+
+### 📍 Locations Covered:
+* Bangalore
+* Pune
+* Hyderabad
+* New Delhi
+* Mumbai
+
+---
+
+## 🛠️ Methodology & Workflow
+
+1. **Data Preprocessing & EDA:**
+   * Handling categorical variables (Job Titles and Locations) using encoding techniques.
+   * Analyzing feature distributions and correlations with the target variable (Salary).
+2. **Model Training:**
+   * Splitting the dataset into training and testing sets.
+   * Implementing and tuning a **Decision Tree Regressor**.
+   * Implementing and tuning a **Random Forest Regressor** (Ensemble method).
+3. **Evaluation:**
+   * Evaluating models using **Root Mean Squared Error (RMSE)** and the **Coefficient of Determination ($R^2$ Score)**.
+   * Visualizing True vs. Predicted salary values using interactive Plotly charts.
+
+---
+
+Execution Steps
+1. Clone this repository to your local machine: git clone [https://github.com/YOUR-USERNAME/Salary-Estimation-Using-Regression-Model.git](https://github.com/YOUR-USERNAME/Salary-Estimation-Using-Regression-Model.git)
+2. Navigate to the project directory and open the Jupyter Notebook: jupyter notebook Salary.ipynb
+3. Run all cells sequentially to execute the data pipeline, train the models, and render the evaluation performance graphs.
+
+👥 Authors
+- Ludmila Nascimento dos Anjos
+- João Victor Freire
+- João Vitor Mendes
