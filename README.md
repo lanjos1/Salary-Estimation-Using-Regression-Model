@@ -43,7 +43,7 @@ The dataset covers 25 distinct roles across different seniority levels:
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### Prerequisites
 Make sure you have Python installed along with the required libraries:
