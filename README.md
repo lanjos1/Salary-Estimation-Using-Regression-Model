@@ -4,7 +4,7 @@ This repository contains a Machine Learning project focused on predicting profes
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Predicting salary trends is critical for both recruiters and professionals navigating the job market. This project evaluates and compares different regression models—specifically **Decision Tree Regressor** and **Random Forest Regressor**—to identify which algorithm delivers the highest accuracy and lowest error rates when estimating tech salaries.
 
@@ -28,7 +28,7 @@ The dataset covers 25 distinct roles across different seniority levels:
 
 ---
 
-## 🛠️ Methodology & Workflow
+## Methodology & Workflow
 
 1. **Data Preprocessing & EDA:**
    * Handling categorical variables (Job Titles and Locations) using encoding techniques.
@@ -49,3 +49,9 @@ The dataset covers 25 distinct roles across different seniority levels:
 Make sure you have Python installed along with the required libraries:
 ```bash
 pip install pandas numpy scikit-learn plotly jupyter
+```
+
+## Authors
+- Ludmila Nascimento dos Anjos
+- João Victor Freire
+- João Vitor Mendes
