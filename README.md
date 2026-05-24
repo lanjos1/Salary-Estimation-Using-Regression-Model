@@ -50,6 +50,16 @@ Make sure you have Python installed along with the required libraries:
 ```bash
 pip install pandas numpy scikit-learn plotly jupyter
 ```
+## Execution Steps
+1. Clone this repository to your local machine:
+```bash
+   git clone [https://github.com/YOUR-USERNAME/Salary-Estimation-Using-Regression-Model.git](https://github.com/YOUR-USERNAME/Salary-Estimation-Using-Regression-Model.git)
+```
+2. Navigate to the project directory and open the Jupyter Notebook:
+```bash
+   jupyter notebook Salary.ipynb
+```
+3. Run all cells sequentially to execute the data pipeline, train the models, and render the evaluation performance graphs.
 
 ## Authors
 - Ludmila Nascimento dos Anjos
